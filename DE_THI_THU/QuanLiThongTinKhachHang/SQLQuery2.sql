@@ -1,0 +1,28 @@
+﻿create database qlkh
+use qLkh
+
+CREATE TABLE NGUOIDUNG(
+    MADANGNHAP VARCHAR(20),
+	MATKHAU NVARCHAR(20)
+)
+
+--drop table NGUOIDUNG
+insert into NGUOIDUNG values
+('ADMIN','123')
+
+select * from nguoidung
+
+CREATE TABLE KhachHang(
+    MAKH NVARCHAR(10)  PRIMARY KEY NOT NULL,
+    TENKH NVARCHAR(30),
+    TUOI INT ,
+    DT NVARCHAR(20) ,
+    EMAIL VARCHAR(20),
+    HINHANH nvarchar(60)
+)
+
+
+--DROP TABLE KHACHHANG
+INSERT INTO KHACHHANG VALUES 
+('KH01',N'Nguyễn Văn An',19, '0392023232','annvpc001@FPT.EDU.VN',NULL)
+select * from KHACHHANG

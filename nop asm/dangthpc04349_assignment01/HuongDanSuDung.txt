@@ -1,0 +1,19 @@
+    
+
+            HƯỚNG DẪN SỬ DỤNG PHẦN MỀM
+
+                                Username:   admin
+                                Password:   123
+
+B1: Thêm thư viện trong thư mục "thu_vien_javaswing" vào packages library
+
+
+B2: Đăng nhập trên trang LOGIN_FORM
+    
+
+B3: Hệ thống sẽ đưa tới trang Quản Lí Hóa Đơn tại đây bạn có thể
+        SAVE: để thêm dữ liệu mới
+        DELETE: để xóa dữ liệu
+        FIND: để tìm kiếm dữ liệu
+        PRINT: để in hóa đơn ra giấy
+        SORT: để sắp xếp dữ liệu
